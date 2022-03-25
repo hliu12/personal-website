@@ -1,5 +1,12 @@
+import { Header, Intro } from "./components";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return (
+    <div>
+      <Header />
+      <Intro />
+    </div>
+  );
 };
 
 export default App;
